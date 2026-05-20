@@ -1,0 +1,12 @@
+# Avtoticket Bus Monitor — Python dependencies
+# Install with: pip install -r requirements.txt
+
+requests==2.31.0          # HTTP client for fetching pages and calling Telegram API
+beautifulsoup4==4.12.3    # HTML parsing for extracting reys rows
+lxml==5.1.0               # Faster HTML parser backend for BeautifulSoup (optional but recommended)
+python-dotenv==1.0.0      # Load environment variables from .env file
+flask==3.0.0              # Web framework for Telegram webhook server
+selenium==4.15.2          # Headless browser for JavaScript rendering
+webdriver-manager==4.0.1  # Auto-download ChromeDriver
+
+
